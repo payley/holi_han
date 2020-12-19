@@ -1,31 +1,54 @@
-form {
-  position: absolute;
-  left: 5%;
-  top: 5%;
-}
-td {
-  border: 1px solid black;
-}
-table {
-  position: relative;
-  padding-top: 250px;
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-}
-body {
-  max-width: 800px;
-  margin: 50px auto;
-  background: white;
-  padding: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans');
 
-.tbl td {
-  width: 20%;
-  height: 100px;
-  padding: 10px;
-}
-th{
-  font-size: 24px;
-}
+  button {
+    padding: 2px;
+  }
+
+  select {
+    outline: none;
+    padding: 2px;
+  }
+
+  form {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  td {
+    border: 1px solid black;
+  }
+
+  table {
+    position: relative;
+    padding-top: 300px;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  body {
+    max-width: 800px;
+    margin: 75px auto;
+    background: white;
+    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .tbl td {
+    width: 20%;
+    height: 100px;
+    padding: 10px;
+  }
+
+  th {
+    font-size: 36px;
+    letter-spacing: 4px;
+    padding-bottom: 12px;
+  }
+
+  #free {
+    background-color: maroon;
+  }
