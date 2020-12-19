@@ -1,0 +1,31 @@
+form {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+td {
+  border: 1px solid black;
+}
+table {
+  position: relative;
+  padding-top: 250px;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+body {
+  max-width: 800px;
+  margin: 50px auto;
+  background: white;
+  padding: 10px;
+}
+
+.tbl td {
+  width: 20%;
+  height: 100px;
+  padding: 10px;
+}
+th{
+  font-size: 24px;
+}
