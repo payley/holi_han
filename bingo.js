@@ -1,7 +1,7 @@
 
 // Graduate Student Life
 var gsc = ["Paper published", "Attended a conference", "Zoom committee meeting", "Engaged/married/new kids", "Worked with a medical student/PT student/undergrad", "Went hiking/biking/swimming/fishing", "Finished a book/tv series", "Watched the Olympics", "Learned a new research technique", "Took a course", "Applied for funding", "Went on vacation out of state", "Hung out with other students/coworkers outside of lab", "Perfected a new recipe", "Got actual tan lines", "Visited a brewery/winery", "Saw a movie in theaters", "Worked weird hours to complete experiments", "Danced/sang in lab to pass time", "Science related injury", "Got locked out", "Moved apartments/houses", "Adopted a pet", "Filled up a notebook or ran out of sticky notes", "Used a whiteboard", "Gave a presentation", "Had to fix equipment", "Discovered you are now the resident expert"]
-var p = phys.length;
+var p = gsc.length;
 
 // Hallmark
 var hallxmas = ["Main character wears plaid/flannel", "Widow/widower", "Putting up decorations", "Santa makes an appearance", "Drinking hot cocoa", "Precocious child", "Setting up a parent", "Orphan", "Panning shot over city or small town", "Small town business owner", "Lesson learned", "Holiday spirit found", "Characters collide", "Special ornaments", "Carousel appearance", "Fake snow", "Bad CGI/stunt double", "Secret royalty", "Saving the festival/local business", "First kiss at the end", "Original bf/gf is not the one", "Ice skating", "Holiday themed names", "More than 3 coats", "Red dress", "Mistaken identity", "Pensive mug sipping", "Meddling best friend", "Minority side character", "Community tree lighting"]
@@ -59,7 +59,7 @@ function populate() {
   }
   ans = document.getElementById("mySelect").value;
     if (ans == "phys") {
-    var list = range(1, c);
+    var list = range(1, p);
     rand = shuffle(list);
     for (var i = 0; i < t; i++) {
       document.getElementById(i).innerHTML = gsc[(rand[i]) - 1];
